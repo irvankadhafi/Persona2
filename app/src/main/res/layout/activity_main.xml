@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <EditText-->
+<!--        android:id="@+id/masukanpemasukan"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginLeft="5dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginRight="-5dp"-->
+<!--        android:ems="20"-->
+<!--        android:inputType="text"-->
+<!--        android:textSize="14dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/masuk"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/masukanpemasukan"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:ems="15"-->
+<!--        android:text="@string/tambahmasuk" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/masukanpengeluaran"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/masuk"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginLeft="4dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginRight="-4dp"-->
+<!--        android:ems="20"-->
+<!--        android:inputType="text"-->
+<!--        android:textSize="14dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/keluar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/masukanpengeluaran"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:ems="15"-->
+<!--        android:text="@string/tambahkeluar" />-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/lihatmasuk"-->
+<!--        android:layout_below="@+id/keluar"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:text="@string/pemasukan"-->
+<!--        android:ems="12"-->
+<!--        />-->
+
+    <!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/lihatkeluar"-->
+<!--        android:layout_below="@+id/keluar"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:text="@string/pengeluaran"-->
+<!--        android:ems="12"-->
+<!--        />-->
+</RelativeLayout>

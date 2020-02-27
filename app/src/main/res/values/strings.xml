@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Persona</string>
+    <string name="pemasukan">Sumber Pemasukan</string>
+    <string name="pengeluaran">Pengeluaran</string>
+    <string name="tambahmasuk">Tambah Pemasukan</string>
+    <string name="tambahkeluar">Tambah Pengeluaran</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
